@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine Store</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- css links -->
+    <link rel="stylesheet" href="./medicine.css">
+</head>
+<body>
+    <header class="topheader">
+        <div>
+            <img src="./swast health.jpeg" alt="healthlogo" style="height: 80px; width: 100px;">
+        </div>
+        <div class="searchcontainer">
+            <from action="/action_page.php">
+                <input type="text" placeholder="    Search Product or Brand ..." name="Search" style="height: 30px; width: 900px; border-radius: 5px;">
+                <button type="Sumit"><i class="fa fa-search"></i></button>
+            </from>
+        </div>
+        <div class="login">
+            <img src="./login logo.png" alt="login" style="height: 30px; width: 30px;">
+            <from action="/action_page.php">
+                <button onclick="myFunction()" class="dropbtn">Login
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="myDropdown" class="drop-content">
+                    <a href="#">Reorder</a>
+                    <a href="#">Track Order</a>
+                    <a href="./login,signup.html">login</a>
+                </div>
+            </from>
+        </div>
+        <div class="cart">
+            <img src="./shopping-bag.png" alt="cart" style="height: 30px; width: 30px;">
+            <a href="#">Cart</a>
+        </div>
+    </header>
+    <div class="content">
+        <div class="card">
+            <h2>Order Medicine</h2>
+            <p>Genuine Medicine. Maximum Discount Free Delivery at your door step</p>
+            <button>Order Now</button>
+        </div>
+        <div class="card">
+            <h2>Order by Prescription</h2>
+            <p>Submit Your Prescription and Get Your Medicines at Home</p>
+            <button>Order Now</button>
+        </div>
+        <div class="card">
+            <h2>Reorder Medicine</h2>
+            <p>Genuine Medicine. Maximum Discount Free Delivery at your door step</p>
+            <button>Order Now</button>
+        </div>
+        <div class="card">
+            <h2>Shop by Category</h2>
+            <p>Genuine Products, Hygiene Storage, Low Price, Timely Delivery of Household Supplies.</p>
+            <button>Shop Now</button>
+        </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="./1.jpg" style="width:100%">
+          <div class="text">Caption One</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="./2.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="./3.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./4.jpg" style="width:100%">
+            <div class="text">Caption Four</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <header>
+            <h1>Shop By Category</h1>
+            <button class="button">View All</button>
+        </header>
+          
+        <div class="container1">
+            <div class="card">
+              <a href="./covid.html">
+              <img src="./covid.png" alt="Covid Essentials">
+              <div class="title">Covid Essentials</div>
+            </div>
+          </a>
+            <div class="card">
+              <a href="./health food.html">
+                <img src="./health.png" alt="Health Food & Drinks">
+                <div class="title">Health Food & Drinks</div>
+              </div></a>
+              <div class="card">
+                <a href="./grocery.html">
+                <img src="./goercy.png" alt="Grocery & Gourmet">
+                <div class="title">Grocery & Gourmet</div>
+              </div></a>
+              <div class="card">
+                <img src="./home.png" alt="Home Care & Hygiene">
+                <div class="title">Home Care & Hygiene</div>
+              </div>
+              <div class="card">
+                <img src="./ayurved.png" alt="Ayurveda">
+                <div class="title">Ayurveda</div>
+              </div>
+              <div class="card">
+                <img src="./beauty.png" alt="Beauty & Personal Care">
+                <div class="title">Beauty & Personal Care</div>
+              </div>
+              <div class="card">
+                <img src="./healthcare.png" alt="Healthcare Devices">
+                <div class="title">Healthcare Devices</div>
+              </div>
+              <div class="card">
+                <img src="./mother.png" alt="Mother & Baby Care">
+                <div class="title">Mother & Baby Care</div>
+              </div>
+              <div class="card">
+                <img src="./vitamins.png" alt="Vitamins & Protein Supplements">
+                <div class="title">Vitamins & Protein Supplements</div>
+              </div>
+              <div class="card">
+                <img src="./school.png" alt="School & Office Stationery">
+                <div class="title">School & Office Stationery</div>
+              </div>
+              <div class="card">
+                <img src="./sport.png" alt="Sports Range">
+                <div class="title">Sports Range</div>
+              </div>
+              <div class="card">
+                <img src="./shop.png" alt="Shop By Brands">
+                <div class="title">Shop By Brands</div>
+            </div>
+        </div>        
+
+<hr>
+<div class="container">
+  <div class="column">
+    <h2>Shop by Category</h2>
+    <div class="row">
+      <a href="#">Beverages and Nutritional Supplements</a>
+    </div>
+    <div class="row">
+      <a href="#">Mother & Baby</a>
+    </div>
+    <div class="row">
+      <a href="#">Ayurvedic & Herbal</a>
+    </div>
+    <div class="row">
+      <a href="#">Health Food, Gourmet & Beverages</a>
+    </div>
+    <div class="row">
+      <a href="#">Devices, Aids & Wellness</a>
+    </div>
+    <div class="row">
+      <a href="#">Beauty & Personal Care</a>
+    </div>
+    <div class="row">
+      <a href="#">Face Mask, Sanitizers & Essentials</a>
+    </div>
+    <div class="row">
+      <a href="#">Home Care, Hygiene & Accessories</a>
+    </div>
+    <div class="row">
+      <a href="#">Orthopaedics</a>
+    </div>
+    <div class="row">
+      <a href="#">School & Office Stationery</a>
+    </div>
+    <div class="row">
+      <a href="#">Personal Hygiene</a>
+    </div>
+    <div class="row">
+      <a href="#">Sports</a>
+    </div>
+  </div>
+  <div class="column">
+    <h2>Company Overview</h2>
+    <div class="row">
+      <a href="#">About Us</a>
+    </div>
+  </div>
+  <div class="column">
+    <h2>Customer Services</h2>
+    <div class="row">
+      <a href="#">Become A Healthbuddy</a>
+    </div>
+    <div class="row">
+      <a href="#">Contact Us</a>
+    </div>
+    <div class="row">
+      <a href="#">Tips</a>
+    </div>
+    <div class="row">
+      <a href="#">Do You Know?</a>
+    </div>
+    <div class="row">
+      <a href="#">Health Article</a>
+    </div>
+  </div>
+  <div class="column">
+    <h2>Customer Policies</h2>
+    <div class="row">
+      <a href="#">F.A.Q</a>
+    </div>
+    <div class="row">
+      <a href="#">Terms & Conditions</a>
+    </div>
+    <div class="row">
+      <a href="#">Privacy Policy</a>
+    </div>
+    <div class="row">
+      <a href="#">Responsible Disclosure Policy</a>
+    </div>
+    <div class="row">
+      <a href="#">Return, Cancellation and Refund Policy</a>
+    </div>
+    <div class="row">
+      <a href="#">Shipping</a>
+    </div>
+    <div class="row">
+      <a href="#">Grievance Redressal Policy</a>
+    </div>
+  </div>
+</div>
+<hr>
+<div class="footer">
+  <p>&copy; Copyright Swast Hospital Health All rights reserved.</p>
+</div>
+
+    <script src="./medicine.js"></script>
+</body>
+</html>
